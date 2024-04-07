@@ -49,7 +49,7 @@ selected_vars_shp <-
         # political variables
         "p$$p10", # political position, scale 0 (left) to 10 (right)
         # health and well-being variables
-        "p$$c18", # frequency of energy and optimism
+        "p$$c18" # frequency of energy and optimism
       )
     ),
     length(1999:2022)
