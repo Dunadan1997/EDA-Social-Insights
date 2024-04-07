@@ -98,6 +98,8 @@ merged_data_shp$optimism_group <-
 
 
 # Exploratory Data Analysis -----------------------------------------------
+
+# This plot shows that young adults (18 to 29 yrs) report falling energy and optimism levels compared to seniors (65 + yrs) since 2015
 merged_data_shp %>% 
   filter(!is.na(age_group_01) & !is.na(optimism_group)) %>% 
   group_by(year, age_group_01, optimism_group) %>% 
